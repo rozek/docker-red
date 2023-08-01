@@ -1,6 +1,6 @@
 # docker-red #
 
-run RED (and Rebol) scripts in a Docker Container (not only) on a modern Mac
+runs RED (and Rebol) scripts in a Docker Container (not only) on a modern Mac
 
 [RED](https://www.red-lang.org/p/about.html) (and [Rebol](http://www.rebol.com/)) scripts do not run under macOS Catalina and newer since 32-bit applications are no longer supported.
 
