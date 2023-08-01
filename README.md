@@ -14,8 +14,8 @@ In order to build and run Docker images you must have Docker installed - for mos
 
 Then follow the steps shown below:
 
-1. clone this repository<br>either use<br>&nbsp;<br>`git clone https://github.com/rozek/docker-red`<br>&nbsp;<br>or [download a ZIP archive](https://github.com/rozek/docker-red/archive/refs/heads/main.zip) with this repository and unpack it
-2. navigate to the root folder of this repository<br>&nbsp;<br>`cd docker-red`<br>&nbsp;<br>
+1. clone this repository: either use<br>&nbsp;<br>`git clone https://github.com/rozek/docker-red`<br>&nbsp;<br>or [download a ZIP archive](https://github.com/rozek/docker-red/archive/refs/heads/main.zip) with this repository and unpack it
+2. navigate to the root folder of this repository:<br>&nbsp;<br>`cd docker-red`<br>&nbsp;<br>
 3. build the Docker image using<br>&nbsp;<br>`docker build -t docker-red .`<br>&nbsp;<br>
 
 ## Run RED/Rebol CLI Scripts ##
