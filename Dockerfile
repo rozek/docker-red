@@ -2,7 +2,8 @@ FROM i386/ubuntu:bionic
 
 RUN apt-get update \
  && apt-get install --no-install-recommends -y wget git apt-utils \
-      libcanberra-gtk-module libcanberra-gtk3-module libgtk-3-0 libcurl4 libxt6:i386 \
+      libcanberra-gtk-module libcanberra-gtk3-module libgtk-3-0 libcurl4 \
+      libx11-6:i386 libxext6:i386 libxt6:i386 libxaw7:i386 libfreetype6:i386 \
  && wget http://www.rebol.com/downloads/v278/rebol-view-278-4-3.tar.gz \
  && tar xzvf rebol-view-278-4-3.tar.gz \
  && mv releases/rebol-view/rebol /bin/rebol-view \
