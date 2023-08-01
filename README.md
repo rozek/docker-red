@@ -36,6 +36,26 @@ docker run --rm --platform=linux/386 -v .:/transfer -it docker-red /bin/rebol
 
 instead.
 
+## Sharing a Host Folder with the Docker Container ##
+
+The Docker image has been prepared to share a local (host) folder with the container - either for copying files into the container or vice-versa (or both).
+
+Simply navigate to the local folder you want to share
+
+```
+cd <folder-shared-with-docker>
+```
+
+and run the Docker image as shown above.
+
+Alternatively, you may also change the `-v .:/transfer` part of the Docker commands shown above to
+
+```
+-v <folder-shared-with-docker>:/transfer
+```
+
+and start the Docker container from anywhere.
+
 ## Prepare a Mac for X11 Display Forwarding ##
 
 MacOS cannot natively display GUIs created inside a Docker container - you need to install XQuartz for that purpose. Simply follow steps 1...7 from [another guide](https://gist.github.com/sorny/969fe55d85c9b0035b0109a31cbcb088) **but do not forget to restart your Mac!**
@@ -61,6 +81,8 @@ open -a XQuartz \
 ```
 
 does the same for Rebol and open the famous Rebol Viewtop.
+
+If you want to share a local folder with a Docker container running a GUI script, simply choose one of the approaches described above.
 
 ## License ##
 
