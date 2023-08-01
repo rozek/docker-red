@@ -60,7 +60,7 @@ open -a XQuartz \
    -it docker-red /bin/rebol-view
 ```
 
-does the same for Rebol
+does the same for Rebol and open the famous Rebol Viewtop.
 
 ## License ##
 
