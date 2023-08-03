@@ -80,7 +80,7 @@ open -a XQuartz \
    -it docker-red /bin/rebol-view
 ```
 
-does the same for Rebol and open the famous Rebol Viewtop.
+does the same for Rebol and opens the famous Rebol Viewtop.
 
 If you want to share a local folder with a Docker container running a GUI script, simply choose one of the approaches described above.
 
